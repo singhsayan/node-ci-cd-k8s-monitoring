@@ -41,7 +41,7 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 <br/><br/>
 
 <h3>📊 Grafana - Custom Dashboard</h3>
-<img src="screenshots/grafana-dashboard.png" alt="Grafana Dashboard" width="600"/>
+<img src="screenshots/Grafana-Dashboard.png" alt="Grafana Dashboard" width="600"/>
 <br/><br/>
 
 <h3>🔌 Prometheus Service - Terminal Output</h3>
