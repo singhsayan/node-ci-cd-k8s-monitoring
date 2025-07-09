@@ -27,21 +27,27 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 
 ---
 
-✅ GitHub Actions Success
-Shows multiple successful workflow runs:
-![GitHub Actions Success](screenshots/github-actions-success.png)
+<h3>✅ GitHub Actions Success</h3>
+<p>Shows multiple successful workflow runs:</p>
+<img src="screenshots/github-actions-success.png" alt="GitHub Actions Success" width="600"/>
+<br/><br/>
 
-📦 Node.js App Running (Browser Output)
-![Node.js App Running](screenshots/Node.js-app-running-on-browser.png)
+<h3>📦 Node.js App Running (Browser Output)</h3>
+<img src="screenshots/Node.js-app-running-on-browser.png" alt="Node.js App Running" width="600"/>
+<br/><br/>
 
-📈 Prometheus - Targets Page
-![Prometheus Targets](screenshots/prometheus-targets-page.png)
+<h3>📈 Prometheus - Targets Page</h3>
+<img src="screenshots/prometheus-targets-page.png" alt="Prometheus Targets" width="600"/>
+<br/><br/>
 
-🔌 Prometheus Service - Terminal Output
-![Prometheus Service Terminal](screenshots/prometheus-service-terminal.png)
+<h3>🔌 Prometheus Service - Terminal Output</h3>
+<img src="screenshots/prometheus-service-terminal.png" alt="Prometheus Terminal" width="600"/>
+<br/><br/>
 
-📊 Grafana Service - Terminal Output
-![Grafana Service Terminal](screenshots/grafana-service-terminal.png)
+<h3>📊 Grafana Service - Terminal Output</h3>
+<img src="screenshots/grafana-service-terminal.png" alt="Grafana Terminal" width="600"/>
+<br/><br/>
+
 
 
 ---
