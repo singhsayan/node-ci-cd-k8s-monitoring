@@ -31,15 +31,24 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 
 Deploy the application and observability stack locally using Minikube:
 
+### 1. Start Minikube
+
 ```bash
-# Apply all Kubernetes manifests
-kubectl apply -f k8s/
+minikube start
 
 # Create namespaces for Prometheus and Grafana
+
 kubectl create namespace prometheus
 kubectl create namespace grafana
 
+# Apply all Kubernetes manifests
+
+kubectl apply -f k8s/
+kubectl apply -f k8s/prometheus
+kubectl apply -f k8s/grafana
+
 # Expose services via Minikube
+
 minikube service grafana
 minikube service prometheus-service -n prometheus
 minikube service node-service
