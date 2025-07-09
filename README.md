@@ -27,6 +27,25 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 
 ---
 
+✅ GitHub Actions Success
+Shows multiple successful workflow runs:
+![GitHub Actions Success](screenshots/github-actions-success.png)
+
+📦 Node.js App Running (Browser Output)
+![Node.js App Running](screenshots/Node.js-app-running-on-browser.png)
+
+📈 Prometheus - Targets Page
+![Prometheus Targets](screenshots/prometheus-targets-page.png)
+
+🔌 Prometheus Service - Terminal Output
+![Prometheus Service Terminal](screenshots/prometheus-service-terminal.png)
+
+📊 Grafana Service - Terminal Output
+![Grafana Service Terminal](screenshots/grafana-service-terminal.png)
+
+
+---
+
 ## 🧪 Commands Used
 
 Deploy the application and observability stack locally using Minikube:
