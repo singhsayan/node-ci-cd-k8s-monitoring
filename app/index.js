@@ -4,9 +4,11 @@ const client = require("prom-client");
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Create a Registry and collect default metrics
 const register = new client.Registry();
 client.collectDefaultMetrics({ register });
 
+// Example custom metric
 const httpRequestCounter = new client.Counter({
   name: "http_requests_total",
   help: "Total number of HTTP requests",
@@ -14,6 +16,7 @@ const httpRequestCounter = new client.Counter({
 
 register.registerMetric(httpRequestCounter);
 
+// Routes
 app.get("/", (req, res) => {
   httpRequestCounter.inc();
   res.send("Hello from Node.js App with Prometheus Monitoring!");

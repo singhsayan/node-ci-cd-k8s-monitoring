@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Docker
+*.tar
+**/Dockerfile~
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# Mac/Linux junk
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Kubernetes
+*.yaml~
+*.yml~
+
+# GitHub Actions
+.github/workflows/*.bak
+.github/workflows/*.tmp
+
+# Prometheus + Grafana
+k8s/prometheus/*.bak
+k8s/grafana/*.bak
+
+# Minikube (optional, if you store local config)
+.kube/
+.minikube/
