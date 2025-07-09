@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/node-ci-cd-k8s-monitoring:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/my-first-docker-image:latest
