@@ -40,6 +40,10 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 <img src="screenshots/prometheus-targets-page.png" alt="Prometheus Targets" width="600"/>
 <br/><br/>
 
+<h3>📊 Grafana - Custom Dashboard</h3>
+<img src="screenshots/grafana-dashboard.png" alt="Grafana Dashboard" width="600"/>
+<br/><br/>
+
 <h3>🔌 Prometheus Service - Terminal Output</h3>
 <img src="screenshots/prometheus-service-terminal.png" alt="Prometheus Terminal" width="600"/>
 <br/><br/>
