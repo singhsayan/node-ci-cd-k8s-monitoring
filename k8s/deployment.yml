@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: node-container
-        image: ghcr.io/singhsayan/ci-cd-k8s:latest
-        imagePullPolicy: Never
+        image: sayan0908/ci-cd-k8s:latest
+        imagePullPolicy: Always
         workingDir: /app
         ports:
         - containerPort: 3000
