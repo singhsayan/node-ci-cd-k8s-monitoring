@@ -23,7 +23,7 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 - **Kubernetes**, **Minikube**
 - **Prometheus**, **Grafana**
 - **GitHub Actions (CI/CD)**
-- **YAML**, **Shell**
+- **YAML**
 
 ---
 
