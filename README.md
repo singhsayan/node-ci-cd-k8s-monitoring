@@ -1,22 +1,22 @@
-# 🚀 Kubernetes Monitoring Stack with Node.js, Prometheus, Grafana, and GitHub Actions
+#  Kubernetes Monitoring Stack with Node.js, Prometheus, Grafana, and GitHub Actions
 
 This project demonstrates a complete monitoring-enabled deployment pipeline for a containerized Node.js application using Kubernetes, Prometheus, and Grafana. CI/CD is fully automated with GitHub Actions, and deployments are tested locally using Minikube.
 
 ---
 
-## ✅ Project Highlights
+##  Project Highlights
 
-* 🟢 **Node.js Application**: Lightweight backend service written in Node.js, exposing basic endpoints for monitoring.
-* 🐳 **Dockerized**: Fully containerized using Docker with a production-ready `Dockerfile`.
-* ☘️ **Kubernetes Native**: Application and observability stack deployed via Kubernetes manifests, including Deployments, Services, and Persistent Volumes.
-* 📊 **Prometheus Integration**: Configured to scrape metrics from the application with a custom `prometheus.yml`.
-* 📈 **Grafana Dashboards**: Set up to visualize key application and cluster metrics with persistent storage.
-* 🤖 **CI/CD with GitHub Actions**: Automated pipeline builds and pushes Docker images to Docker Hub on every commit to `main`.
-* 🧰 **Minikube Deployment**: Manual deployment workflow using Minikube for local development and testing.
+*  **Node.js Application**: Lightweight backend service written in Node.js, exposing basic endpoints for monitoring.
+*  **Dockerized**: Fully containerized using Docker with a production-ready `Dockerfile`.
+* ☘ **Kubernetes Native**: Application and observability stack deployed via Kubernetes manifests, including Deployments, Services, and Persistent Volumes.
+*  **Prometheus Integration**: Configured to scrape metrics from the application with a custom `prometheus.yml`.
+*  **Grafana Dashboards**: Set up to visualize key application and cluster metrics with persistent storage.
+*  **CI/CD with GitHub Actions**: Automated pipeline builds and pushes Docker images to Docker Hub on every commit to `main`.
+*  **Minikube Deployment**: Manual deployment workflow using Minikube for local development and testing.
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 * **Node.js**, **Express**
 * **Docker**, **Docker Hub**
@@ -27,39 +27,39 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 
 ---
 
-### ✅ GitHub Actions Success
+###  GitHub Actions Success
 
 Shows multiple successful workflow runs:
 
 ![GitHub Actions Success](screenshots/github-actions-success.png)
 
-### 📦 Node.js App Running (Browser Output)
+###  Node.js App Running (Browser Output)
 
 ![Node.js App Running](screenshots/Node.js-app-running-on-browser.png)
 
-### 📈 Prometheus - Targets Page
+###  Prometheus - Targets Page
 
 ![Prometheus Targets](screenshots/prometheus-targets-page.png)
 
-### 📊 Grafana - Custom Dashboard
+###  Grafana - Custom Dashboard
 
 ![Grafana Dashboard](screenshots/Grafana-Dashboard.png)
 
-### 🔌 Prometheus Service - Terminal Output
+###  Prometheus Service - Terminal Output
 
 ![Prometheus Terminal](screenshots/prometheus-service-terminal.png)
 
-### 📊 Grafana Service - Terminal Output
+###  Grafana Service - Terminal Output
 
 ![Grafana Terminal](screenshots/grafana-service-terminal.png)
 
 ---
 
-## 🔄 GitHub Actions CI/CD Setup
+##  GitHub Actions CI/CD Setup
 
 This project uses GitHub Actions to automatically build and push Docker images to Docker Hub when you push code to the `main` branch.
 
-### 🥉 How It Works:
+###  How It Works:
 
 1. **Docker Build & Push**
 
@@ -92,7 +92,7 @@ This project uses GitHub Actions to automatically build and push Docker images t
 
 ---
 
-## 🧪 Commands Used
+##  Commands Used
 
 Deploy the application and observability stack locally using Minikube:
 
