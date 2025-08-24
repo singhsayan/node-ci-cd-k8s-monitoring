@@ -8,7 +8,7 @@ This project demonstrates a complete monitoring-enabled deployment pipeline for 
 
 *  **Node.js Application**: Lightweight backend service written in Node.js, exposing basic endpoints for monitoring.
 *  **Dockerized**: Fully containerized using Docker with a production-ready `Dockerfile`.
-* ☘ **Kubernetes Native**: Application and observability stack deployed via Kubernetes manifests, including Deployments, Services, and Persistent Volumes.
+*  **Kubernetes Native**: Application and observability stack deployed via Kubernetes manifests, including Deployments, Services, and Persistent Volumes.
 *  **Prometheus Integration**: Configured to scrape metrics from the application with a custom `prometheus.yml`.
 *  **Grafana Dashboards**: Set up to visualize key application and cluster metrics with persistent storage.
 *  **CI/CD with GitHub Actions**: Automated pipeline builds and pushes Docker images to Docker Hub on every commit to `main`.
